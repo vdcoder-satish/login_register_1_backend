@@ -14,6 +14,6 @@ app.use(bodyParser.json())
 app.use('/api',route)
 //start the server 
 connectDb.getDbConnection()
-app.listen(port,()=>{
+app.listen(port,'0.0.0.0',()=>{
   console.log(`server is started on port:${port}`)
 });
