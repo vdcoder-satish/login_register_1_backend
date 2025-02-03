@@ -9,7 +9,7 @@ const connectDb=require('../src/db/dbConnection');
 app.use(helmet());
 app.use(bodyParser.json())
 //connect with db
- console.log('starting app.....')
+ console.log('starting app......')
 //use route
 app.use('/api',route)
 //start the server 
