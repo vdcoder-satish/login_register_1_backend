@@ -2,7 +2,7 @@
 
 
 const userService=require('../services/userService');
-const bcrypt=require('bcrypt');
+const bcrypt=require('bcryptjs');
 const addUser=async(req,res)=>{
   try{
      let input=req.body;
