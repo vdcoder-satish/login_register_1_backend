@@ -1,5 +1,5 @@
 # Step 1: Use the official Node.js image from Docker Hub
-FROM node:16
+FROM node:16.20.2
 
 # Step 2: Set the working directory inside the container
 WORKDIR /usr/src/app
