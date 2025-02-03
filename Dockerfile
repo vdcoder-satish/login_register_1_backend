@@ -20,4 +20,4 @@ COPY . .
 EXPOSE 5000
 
 # Step 8: Use nodemon to start your app in development mode
-CMD ["nodemon", "src/server.js"]
+CMD ["nodemon", "src/app.js"]
