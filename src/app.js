@@ -13,7 +13,7 @@ app.use(bodyParser.json())
 //use route
 app.use('/api',route)
 //start the server 
-connectDb.getDbConnection()
+// connectDb.getDbConnection()
 app.listen(port,'0.0.0.0',()=>{
   console.log(`server is started on port:${port}`)
 });
